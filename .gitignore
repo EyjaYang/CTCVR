@@ -1,0 +1,49 @@
+# Local credentials and agent state
+.env
+.env.*
+!.env.example
+.aws/
+.codex/
+.agents/
+
+# Raw datasets; keep documentation and future processing code
+/src/data/*.csv
+/src/data/*.tar.gz
+/src/data/*.md5
+/src/data/*.part
+
+# Derived datasets and training artifacts
+/data/processed/
+/artifacts/
+/checkpoints/
+/runs/
+/wandb/
+*.parquet
+*.npy
+*.npz
+*.pt
+*.pth
+*.ckpt
+*.log
+
+# Python environments and caches
+.venv/
+venv/
+.conda/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.coverage
+htmlcov/
+*.egg-info/
+build/
+dist/
+
+# Editor and operating system files
+.idea/
+.vscode/
+.DS_Store
+*~
